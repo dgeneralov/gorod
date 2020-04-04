@@ -60,7 +60,7 @@ body {
   position: relative;
 }
 .author-img {
-  background-image: url(img/author.jpeg);
+  background-image: url(/img/author.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 150px;
