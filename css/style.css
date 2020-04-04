@@ -4,7 +4,7 @@ body {
 .header {
   width: 100%;
   height: 500px;
-  background-image: url(/img/header.jpeg);
+  background-image: url(../img/header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -60,7 +60,7 @@ body {
   position: relative;
 }
 .author-img {
-  background-image: url(/img/author.jpeg);
+  background-image: url(../img/author.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 150px;
