@@ -142,21 +142,22 @@
   height: 450px;
   align-items: start;
   margin: 5px;
+  filter: grayscale(50%);
 }
 .grid-item:hover {
-  align-self: start;
+  filter: none;
 }
 .block-video {
   display: grid;
   overflow: hidden;
-  grid-template: 1fr 1fr / 1fr 1fr;
-  justify-items: center;
-  margin: 0 auto;
+  grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+  align-items: stretch;
 }
 .video-item {
-  align-items: center;
   object-fit: cover;
-  background-color: wheat;
+  width: 600px;
+  height: 600px;
+  margin: 5px;
 }
 .footer {
   margin: 0 auto;
