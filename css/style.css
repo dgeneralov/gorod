@@ -148,6 +148,7 @@
   filter: none;
 }
 .block-video {
+  margin: 100px;
   display: grid;
   overflow: hidden;
   grid-template: 1fr 1fr 1fr/ 1fr 1fr;
@@ -155,25 +156,28 @@
 }
 .video-item {
   object-fit: cover;
-  width: 600px;
-  height: 600px;
+  width: 550px;
+  height: 550px;
   margin: 5px;
 }
+
 .footer {
-  margin: 0 auto;
-  background-color: black;
-  height: 100px;
+  background: linear-gradient(45deg, #935522, #371923);
+  place-items: center;
+  padding: 40px;
 }
 .btn-up {
   display: inline;
-  background-color: black;
   color: #bc591e;
   font-size: 35px;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
 }
-
+.footer small {
+  color: whitesmoke;
+  text-align: end;
+}
 .btn-up:hover {
   color: rgb(255, 236, 137);
 }
