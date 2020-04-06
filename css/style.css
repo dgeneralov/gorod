@@ -147,8 +147,28 @@
 .grid-item:hover {
   filter: none;
 }
+.video-text {
+  margin-top: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+.video-text p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 300;
+}
+.video-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+.video-text:hover a {
+  color: rgb(225, 95, 65);
+}
 .block-video {
-  margin: 100px;
+  margin-left: 100px;
+  margin-top: 0;
   display: grid;
   overflow: hidden;
   grid-template: 1fr 1fr 1fr/ 1fr 1fr;
@@ -180,4 +200,11 @@
 }
 .btn-up:hover {
   color: rgb(255, 236, 137);
+}
+.head-3 {
+  font-family: "Russo One", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-left: 100px;
 }
