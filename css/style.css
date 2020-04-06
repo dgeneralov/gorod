@@ -64,6 +64,10 @@
   top: 0;
   border-radius: 90px;
   border: 1px solid white;
+  filter: grayscale(50%);
+}
+.author-img:hover {
+  filter: none;
 }
 .position {
   position: absolute;
