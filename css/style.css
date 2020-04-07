@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  height: 450px;
+  height: 500px;
   background-image: url(../img/header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +47,7 @@ body {
   text-decoration: none;
   color: rgb(225, 95, 65);
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
   margin: 0 auto;
 }
