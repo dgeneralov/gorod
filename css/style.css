@@ -2,6 +2,7 @@ body {
   background-color: #f5f6fa;
   margin: 0 auto;
 }
+
 .header {
   height: 450px;
   background-image: url(../img/header.jpeg);
@@ -55,12 +56,34 @@ body {
 }
 
 .accent {
+  text-align: center;
   position: absolute;
-  top:35px;
+  top:10px;
   right: calc(10% - 1px);
   color: rgb(255, 236, 137);
   
 }
+.accent-text{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 236, 137);
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+.accent-img{
+  background-image: url(../img/tcoi.jpg);
+  height: 55px;
+  width: 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 90px;
+}
+.accent-img:hover{
+  height: 70px;
+  width: 70px;
+}
+
 .accent:hover {
   color: rgba(255, 236, 137, 0.8);
 }
