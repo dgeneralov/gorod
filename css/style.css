@@ -51,7 +51,7 @@ body {
 }
 .block-menu__item {
   text-transform: uppercase;
-  padding: 15px;
+  padding: 18px;
   text-decoration: none;
   color: black;
   font-family: "Open Sans", sans-serif;
@@ -68,9 +68,21 @@ body {
   background-color: #a5a5a5;
 }
 .accent {
-  padding: 5px;
+  text-transform: uppercase;
+  padding: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 auto;
   color: rgb(255, 236, 137);
+  margin-left: -20px;
+  box-shadow: transparent;
+  transition-property: box-shadow;
+  transition-duration: 0.6s;
 }
+
 .accent-text {
   text-transform: uppercase;
   text-decoration: none;
@@ -81,9 +93,10 @@ body {
   font-weight: 700;
 }
 .accent-img {
+  margin-left: -29px;
   background-image: url(../img/tcoi.jpg);
-  height: 55px;
-  width: 55px;
+  height: 45px;
+  width: 45px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 90px;
@@ -120,7 +133,9 @@ body {
   padding: 4px;
   background-color: white;
 }
-
+.author-text:hover {
+  box-shadow: rgb(150, 150, 150);
+}
 .author-text h3 {
   margin-bottom: 50px;
   line-height: 0.2;
