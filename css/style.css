@@ -90,6 +90,7 @@ body {
   font-size: 25px;
   font-weight: 300;
   text-transform: capitalize;
+  position: relative;
 }
 .social {
   margin: 0 auto;
@@ -98,7 +99,7 @@ body {
 .social-item {
   color: #722b2f;
   display: inline;
-  padding: 0px;
+  padding: 20px;
   margin: 15px;
 }
 .social-item svg {
@@ -112,13 +113,13 @@ body {
   margin-top: 160px;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 .history-text {
-  float: right;
   font-family: "Open Sans", sans-serif;
   text-align: start;
   padding: 0 30px;
+  margin-right: 20px;
 }
 .history-text p {
   font-size: 20px;
@@ -131,7 +132,6 @@ body {
   text-transform: uppercase;
 }
 .history-img {
-  float: left;
   width: 100%;
   object-fit: cover;
   left: 50%;
@@ -155,13 +155,15 @@ body {
   align-self: start;
 }
 .block-video {
-  grid-template: 1fr 1fr / 1fr 1fr;
-  justify-items: end;
-  margin: 0 auto;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
+
+  justify-items: center;
 }
 .video-item {
+  margin: 5px;
   align-items: center;
-  object-fit: cover;
+
   background-color: wheat;
 }
 .footer {
