@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
 }
 .header {
-  height: 400px;
+  height: 450px;
   background-image: url(../img/header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,6 +11,27 @@ body {
   position: relative;
   display: flex;
   justify-content: space-around;
+}
+.menu-top {
+  background-color: transparent;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin:0 auto;
+  padding:0;
+}
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  align-items: center;
+}
+.navi{
+  background-color: white;
+  width: 300px;
+  height: 15px;
 }
 .block-menu {
   padding: 10px;
@@ -35,10 +56,10 @@ body {
 
 .accent {
   position: absolute;
-  right: -180px;
+  top:20px;
+  
   color: rgb(255, 236, 137);
-  border: 1px solid transparent;
-  border-radius: 3px;
+  
 }
 .accent:hover {
   color: rgba(255, 236, 137, 0.8);
