@@ -202,7 +202,7 @@ body {
 .footer {
   background: linear-gradient(45deg, #935522, #371923);
   place-items: center;
-  padding: 40px;
+  height: 5px;
 }
 .btn-up a {
   display: inline;
@@ -214,6 +214,10 @@ body {
 }
 .footer small {
   color: whitesmoke;
+  text-align: end;
+}
+small {
+  color: black
   text-align: end;
 }
 .btn-up:hover {
