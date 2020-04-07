@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
 }
 .header {
-  height: 350px;
+  height: 400px;
   background-image: url(../img/header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@ body {
   justify-content: space-around;
 }
 .block-menu {
-  padding: 0;
+  padding: 10px;
   list-style-type: none;
   display: flex;
   margin: 10px auto;
