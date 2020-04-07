@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  height: 600px;
+  height: 25em;
   background-image: url(../img/header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,13 +14,14 @@ body {
   justify-content: space-around;
 }
 .menu-top {
-  background-color: transparent;
+  margin-top:15px;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  margin:0 auto;
-  padding:15px;
+  
+ 
  
 }
 .nav {
@@ -29,11 +30,8 @@ body {
   padding-left: 0;
   align-items: center;
 }
-.navi{
-  background-color: white;
-  width: 300px;
-  height: 15px;
-}
+
+
 .block-menu {
   padding: 10px;
   list-style-type: none;
@@ -42,13 +40,14 @@ body {
   position: relative;
 }
 .block-menu__item {
-  margin-right: 3px;
-  padding-left: 15px;
+  text-transform: uppercase;
+  
+  padding: 15px;
   text-decoration: none;
-  color: rgb(225, 95, 65);
+  color: black;
   font-family: "Open Sans", sans-serif;
-  font-size: 23px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 800;
   margin: 0 auto;
 }
 .block-menu__item:hover {
@@ -65,6 +64,7 @@ body {
   
 }
 .accent-text{
+  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   color: rgb(225, 95, 65);
@@ -86,7 +86,7 @@ body {
 }
 
 .accent:hover {
-  color: rgba(255, 236, 137, 0.8);
+  color: black
 }
 
 .block-author {
