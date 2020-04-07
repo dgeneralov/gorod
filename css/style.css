@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  height: 500px;
+  height: 600px;
   background-image: url(../img/header.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +59,7 @@ body {
   padding:5px;
   text-align: center;
   position: absolute;
-  top:10px;
+  top:7px;
   right: calc(10% - 1px);
   color: rgb(255, 236, 137);
   
@@ -67,7 +67,7 @@ body {
 .accent-text{
   text-decoration: none;
   text-align: center;
-  color: rgb(255, 236, 137);
+  color: rgb(225, 95, 65);
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 700;
