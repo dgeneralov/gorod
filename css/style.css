@@ -197,16 +197,17 @@ body {
 .social-item:hover svg {
   color: #722b2f;
 }
-.history {
+.history{
+  
   background-color: white;
   grid-template: 1fr / 1fr 1fr;
   display: grid;
-  padding: 50px;
+  
   justify-content: center;
   margin: 50px 50px 0 50px;
 }
 .history-text {
-  margin-top:20px;
+  
   font-family: "Open Sans", sans-serif;
   text-align: start;
 }
@@ -215,6 +216,7 @@ body {
   font-weight: 300;
 }
 .history-text h2 {
+  padding-top: 100px;
   font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
