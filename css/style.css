@@ -3,12 +3,13 @@ body {
   margin: 0;
 }
 .fix{
+  z-index: 2;
   top:5px;
   margin:0 auto;
   position: fixed;
 }
 .header {
-  margin-top: 70px;
+  margin-top: 80px;
   height: 400px;
   background-image: url(../img/head-2.png);
   background-repeat: no-repeat;
@@ -29,12 +30,8 @@ body {
   margin: 0 auto;
 }
 .nav {
-  background: rgb(255, 255, 255);
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(245, 246, 250, 1) 100%
-  );
+  background:transparent
+ 
   height: 60px;
   padding: 0;
   display: flex;
