@@ -2,7 +2,15 @@ body {
   background-color: #f5f6fa;
   margin: 0;
 }
+.fix{
+  top:5px;
+  left: 100px;
+  
+  margin:0 30px;
+  position: fixed;
+}
 .header {
+  margin-top: 70px;
   height: 400px;
   background-image: url(../img/head-2.png);
   background-repeat: no-repeat;
@@ -37,7 +45,7 @@ body {
   align-items: center;
 }
 .line-top {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
   background-color: black;
