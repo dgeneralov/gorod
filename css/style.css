@@ -15,7 +15,11 @@ body {
   justify-content: space-around;
 }
 .bg-2{
-  
+  height: 400px;
+  background-image: url(../img/petropavlovskaya-krepost-3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
   
 
 }
@@ -302,7 +306,7 @@ body {
 .footer {
   background: linear-gradient(45deg, #935522, #371923);
   place-items: center;
-  height: 5px;
+  height: 15px;
 }
 .btn-up a {
   display: inline;
@@ -320,3 +324,7 @@ body {
 .btn-up:hover {
   color: rgb(255, 236, 137);
 }
+#back-top{
+  position:fixed;
+  display:none;
+  }

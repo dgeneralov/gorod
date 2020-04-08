@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -17,7 +18,8 @@
 
     <title>Официальный сайт группы ГороД</title>
   </head>
-  <body>
+
+  <body>  
     <div class="line-top"></div>
     <div class="menu-top">
       <div class="social">
@@ -55,29 +57,21 @@
         <li><a href="#" ><div class="accent-img "></div></a></li></div>
       </ul>
     </div>
-    <div class="bg-2">
     <div class="line-bottom"></div>
     <div class="header">
      <div class="position">
         <div class="author-img"></div></a>
       </div>
     </div>
-    
-
-    
   <div class="block-author">
     
     <div class="author-text">
-      <h3>Группа "ГороД"</h3>
       <p>Официальный сайт</p>
+      <h3>Группа "ГороД"</h3>
     </div>
-    
-  </div>
-</div>
-    
-    
+    </div>
 
-     <!--<div class="history">
+     <div id=back-top class="history">
       <div class="history-text">
         <h2><a name="history" href=""></a>иcтория группы</h2>
         <h3>Группа «ГороД» была создана в 1992 году в Москве.</h3>
@@ -103,7 +97,7 @@
         <img src="img/rgoup.jpeg" />
      </div>
     </div>
-    <h3 class="head-3"><a name="photo" href=""></a>Фото</h3>
+    <!--<h3 class="head-3"><a name="photo" href=""></a>Фото</h3>
     <div class="blog-grid">
       <img src="img/img2.jpeg" class="grid-item" />
       <img src="img/img3.jpeg" class="grid-item" />
@@ -210,5 +204,13 @@
       </div>
     </footer>-->
     <script src="js/all.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function(f){
+          var element = f('#back-top');
+          f(window).scroll(function(){
+              element['fade'+ (f(this).scrollTop() > 200 ? 'In': 'Out')](500);           
+          });
+      });
+      </script>
   </body>
 </html>
