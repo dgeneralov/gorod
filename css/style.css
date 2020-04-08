@@ -14,15 +14,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.bg-2{
-  height: 400px;
-  background-image: url(../img/petropavlovskaya-krepost-3.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  
 
-}
 .menu-top {
   display: flex;
   justify-content: space-around;
@@ -41,7 +33,7 @@ body {
   padding: 0;
   display: flex;
   list-style-type: none;
-  margin: 0 auto 0 5px;
+  margin: 0 auto 0 100px;
   align-items: center;
 }
 .line-top {
@@ -203,7 +195,7 @@ body {
   display: grid;
   padding: 50px;
   justify-content: center;
-  margin: 0 50px;
+  margin: 50px 50px 0 50px;
 }
 .history-text {
   font-family: "Open Sans", sans-serif;
@@ -304,9 +296,11 @@ body {
 }
 
 .footer {
+ margin-top:25px;
+  padding:10px;
   background: linear-gradient(45deg, #935522, #371923);
   place-items: center;
-  height: 15px;
+ 
 }
 .btn-up a {
   display: inline;
@@ -321,10 +315,7 @@ body {
   text-align: end;
 }
 
-.btn-up:hover {
-  color: rgb(255, 236, 137);
+
+.canchor {
+  margin: 1000px 0 0  0;
 }
-#back-top{
-  position:fixed;
-  display:none;
-  }

@@ -46,12 +46,12 @@
         </ul>
     </div>
       <ul class="nav">
-        
-        <li><a href="#anchor1" class="block-menu__item">О группе</a></li>
-        <li><a href="#" class="block-menu__item">дискография</a></li>
-        <li><a href="#anchor2" class="block-menu__item">Фото</a></li>
-        <li><a href="#anchor4" class="block-menu__item">Видео</a></li>
-        <li><a href="#anchor5" class=block-menu__item>Контакты</a></li>
+        <li><a href="/index.html" class="block-menu__item">Главная</a></li>
+        <li><a href="/history.html" class="block-menu__item">О группе</a></li>
+        <li><a href="/albums.html" class="block-menu__item">дискография</a></li>
+      
+        <li><a href="/video.html" class="block-menu__item">Видео</a></li>
+        <li><a href="/contacts.html" class=block-menu__item>Контакты</a></li>
         <div class="accent"> <li><a href="/kino2020.html" class="accent">кино 202</a></li>
         <li><a href="#" ><div class="accent-img "></div></a></li></div>
       </ul>
@@ -70,7 +70,7 @@
     </div>
     </div>
 
-     <div  class="anchor canchor" id="anchor1">
+     <div id=back-top class="history">
       <div class="history-text">
         <h2><a name="history" href=""></a>иcтория группы</h2>
         <h3>Группа «ГороД» была создана в 1992 году в Москве.</h3>
@@ -96,9 +96,7 @@
         <img src="img/rgoup.jpeg" />
      </div>
     </div>
-
-    <div class="anchor canchor" id="anchor2">
-    <h3  class="head-3"><a href=""></a>Фото</h3>
+    <!--<h3 class="head-3"><a name="photo" href=""></a>Фото</h3>
     <div class="blog-grid">
       <img src="img/img2.jpeg" class="grid-item" />
       <img src="img/img3.jpeg" class="grid-item" />
@@ -107,11 +105,8 @@
       <img src="img/img7.jpeg" class="grid-item" />
       <img src="img/img8.jpeg" class="grid-item" />
     </div>
-  </div>
-
-  <div class="anchor canchor" id="anchor3">
     <div class="video-text">
-      <h3><a  href=""></a>Видео</h3>
+      <h3><a name="video" href=""></a>Видео</h3>
       <p>Песни группы ГороД и по черновикам Виктора Цоя</p>
       <p>
         <a href=""
@@ -119,7 +114,7 @@
         >
       </p>
     </div>
-    <div  class="block-video video">
+    <div class="block-video">
       <iframe
         class="video-item"
         width="560"
@@ -193,7 +188,12 @@
         allowfullscreen
       ></iframe>
     </div>
-  </div>
+    <iframe
+      src="https://www.realrocks.ru/siteplayer/1753465"
+      width="600"
+      height="112"
+      frameborder="0"
+    ></iframe> 
     <footer>
       <div class="footer">
         <div class="btn-up">
@@ -201,8 +201,15 @@
         </div>
         <small>dgeneralov</small>
       </div>
-    </footer>
+    </footer>-->
     <script src="js/all.min.js"></script>
-    <script src="js/scroll.js"></script>
+    <script type="text/javascript">
+      jQuery(function(f){
+          var element = f('#back-top');
+          f(window).scroll(function(){
+              element['fade'+ (f(this).scrollTop() > 200 ? 'In': 'Out')](500);           
+          });
+      });
+      </script>
   </body>
 </html>
