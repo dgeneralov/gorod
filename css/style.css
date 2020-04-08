@@ -14,6 +14,11 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.bg-2{
+  
+  
+
+}
 .menu-top {
   display: flex;
   justify-content: space-around;
@@ -88,7 +93,7 @@ body {
   font-size: 30px;
   font-weight: 800;
   margin: 0 auto;
-  color: rgb(165, 144, 37);
+  color: rgba(211, 194, 39, 0.849);
   margin-left: -20px;
   box-shadow: transparent;
   transition-property: color;
@@ -104,7 +109,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 90px;
-  box-shadow: transparent;
+  box-shadow:0px 0px 12px 1px black;
   transition-property: box-shadow;
   transition-duration: 0.6s;
 }
@@ -138,9 +143,20 @@ body {
   padding: 4px;
   background-color: white;
 }
-
+.author-text{
+  background-image: url(../img/chernovik.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding:5px;
+  margin:0 auto;
+  align-items: center;
+  border:1px solid black;
+  height: 250px;
+  width: 500px;
+}
 .author-text h3 {
-  line-height: 0.2;
+  line-height: 1;
   font-size: 60px;
   font-weight: 800;
   text-transform: capitalize;
@@ -150,7 +166,7 @@ body {
   font-size: 25px;
   font-weight: 300;
   text-transform: capitalize;
-  position: relative;
+
 }
 
 .social ul {
