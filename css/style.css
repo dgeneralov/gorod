@@ -12,12 +12,10 @@
   background-position: top center;
   background-size: cover;
   filter: saturate(0.6);
-
   position: relative;
   display: flex;
   justify-content: space-around;
 }
-
 .menu-top {
   display: flex;
   justify-content: space-around;
@@ -313,4 +311,7 @@
 
 .canchor {
   margin: 1000px 0 0 0;
+}
+.mobile-menu {
+  visibility: hidden;
 }

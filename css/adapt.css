@@ -1,0 +1,36 @@
+@media (max-width: 1400px) {
+  .fix {
+    right: 0px;
+
+    left: 0px;
+  }
+  .nav {
+    max-width: 900px;
+    margin-left: 20px;
+    /*margin: 0 auto 0 20px;*/
+  }
+  .social {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  .block-menu__item {
+    padding: 17px;
+    margin-right: 10px;
+  }
+  .accent {
+    margin: 0 15px;
+    width: 160px;
+  }
+  .adpt-1 {
+    margin-right: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .fix {
+    display: none;
+  }
+  .mobile-menu {
+    visibility: visible;
+  }
+}
