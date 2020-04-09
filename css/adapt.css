@@ -1,4 +1,4 @@
-@media (max-width: 1400px) {
+@media (max-width: 1700px) {
   .fix {
     right: 0px;
 
@@ -24,6 +24,11 @@
   .adpt-1 {
     margin-right: 50px;
     padding-right: 50px;
+  }
+  .header{
+   object-fit: contain;
+   background-position: center center;
+    
   }
 }
 @media (max-width: 500px) {
