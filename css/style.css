@@ -309,7 +309,7 @@
   transform: translate(-50%, 0);
 }
 .footer small {
-  color: whitesmoke;
+  color: rgba(73, 71, 71, 0.637);
   text-align: end;
 }
 
