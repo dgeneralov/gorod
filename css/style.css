@@ -5,7 +5,7 @@
   position: fixed;
 }
 .header {
-  margin-top: 80px;
+  margin-top: 17px;
   height: 400px;
   background-image: url(../img/head-2.png);
   background-repeat: no-repeat;
@@ -141,7 +141,7 @@
   background-position: center center;
   background-size: cover;
   padding: 5px;
-  margin: 0 auto;
+  margin: 0 auto 150px auto;
   align-items: center;
   border: 1px solid black;
   height: 250px;
@@ -291,10 +291,14 @@
 }
 
 .footer {
-  margin-top: 25px;
+ 
   padding: 10px;
   background: linear-gradient(45deg, #935522, #371923);
   place-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin:0;
 }
 .btn-up a {
   display: inline;
@@ -315,7 +319,4 @@
 }
 .mobile-menu {
   visibility: hidden;
-}
-#anchor1{
-  display: none;
 }
