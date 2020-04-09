@@ -31,12 +31,46 @@
     
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
   .fix {
     display: none;
   }
   .mobile-menu {
     visibility: visible;
   }
- 
+  .block-author {
+    margin-top: 50px;
+  }
+ .author-text{
+   width: 300px;
+   height: 200px;
+   margin-top:;
+ }
+ .header{
+   background-position: center top;
+   height: 100px;
+   margin-top:0;
+ }
+ .position{
+   width: 60px;
+   height: 60px;
+   padding:1px;
+   bottom: -40px;
+ }
+ .author-img{
+   width: 60px;
+   height: 60px;
+ }
+ .author-text h3 {
+  line-height: 1;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.author-text p {
+  line-height: 0;
+  font-size: 20;
+  font-weight: 300;
+  text-transform: capitalize;
+}
 }
