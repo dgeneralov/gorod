@@ -40,10 +40,3 @@ $(function(){
     
 });
 
-<script>
-$('#anchor1').click(function(){
-  $('#anchor1').show('slow', function() {
-    $('.anchor1');
-  })
-});
-</script>

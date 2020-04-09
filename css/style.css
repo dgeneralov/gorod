@@ -292,7 +292,7 @@
 
 .footer {
  
-  padding: 10px;
+  padding: 0;
   background: linear-gradient(45deg, #935522, #371923);
   place-items: center;
   position: fixed;

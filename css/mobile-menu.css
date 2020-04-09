@@ -5,13 +5,14 @@
   justify-content: flex-end;
   padding: 0 16px;
   top: 0;
-  background-color: rgba(223, 217, 217, 0.726);
+  background-color: rgba(139, 137, 139, 0.726);
   left: 0;
   right: 0;
   height: 50px;
   z-index: 9999999;
 }
 .mobile-menu__btn {
+  padding-top: 5px;
   position: relative;
   display: flex;
   align-items: center;
@@ -24,7 +25,7 @@
 .mobile-menu__icon {
   display: block;
   position: relative;
-  background: rgb(116, 116, 116);
+  background:black;
   width: 90%;
   height: 4px;
   transition: 0.4s;
