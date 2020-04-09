@@ -4,17 +4,36 @@
   margin: 0 auto;
   position: fixed;
 }
-.header {
-  margin-top: 17px;
-  height: 400px;
-  background-image: url(../img/head-2.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  filter: saturate(0.6);
-  position: relative;
+.line-top {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+  height: 1px;
+  width: 1200px;
+}
+.social ul {
+  padding: 0;
+  list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+.social-item {
+  padding-left: 5px;
+  box-shadow: transparent;
+}
+.social {
+  display: inline;
+  margin: 0 5px 0 110px;
+}
+.social-item svg {
+  color: black;
+  font-size: 25px;
+  transition-property: color;
+  transition-duration: 0.7s;
+}
+.social-item:hover svg {
+  color: #722b2f;
 }
 .menu-top {
   display: flex;
@@ -31,21 +50,6 @@
   list-style-type: none;
   margin: 0 auto 0 100px;
   align-items: center;
-}
-.line-top {
-  margin-top: 0px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: black;
-  height: 1px;
-  width: 1200px;
-}
-.line-bottom {
-  margin-right: auto;
-  margin-left: auto;
-  background-color: black;
-  height: 1px;
-  width: 1200px;
 }
 .block-menu {
   padding: 10px;
@@ -80,7 +84,6 @@
   text-transform: uppercase;
   padding: 30px;
   text-decoration: none;
-
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 800;
@@ -91,7 +94,6 @@
   transition-property: color;
   transition-duration: 0.6s;
 }
-
 .accent-img {
   margin-top: 25px;
   margin-left: -29px;
@@ -111,6 +113,34 @@
 .accent:hover {
   color: black;
 }
+.line-bottom {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+  height: 1px;
+  width: 1200px;
+}
+.header {
+  margin-top: 17px;
+  height: 400px;
+  background-image: url(../img/head-2.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  filter: saturate(0.6);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.position {
+  position: absolute;
+  margin: 0 auto;
+  border-radius: 90px;
+  border: 1px solid white;
+  bottom: -70px;
+  padding: 4px;
+  background-color: white;
+}
 .block-author {
   margin-top: 110px;
   text-align: center;
@@ -125,15 +155,6 @@
   height: 150px;
   border-radius: 90px;
   border: 1px solid white;
-}
-.position {
-  position: absolute;
-  margin: 0 auto;
-  border-radius: 90px;
-  border: 1px solid white;
-  bottom: -70px;
-  padding: 4px;
-  background-color: white;
 }
 .author-text {
   background-image: url(../img/chernovik.jpg);
@@ -159,37 +180,14 @@
   font-weight: 300;
   text-transform: capitalize;
 }
-
-.social ul {
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-}
-.social-item {
-  padding-left: 5px;
-  box-shadow: transparent;
-}
-.social {
-  display: inline;
-  margin: 0 5px 0 110px;
-}
-.social-item svg {
-  color: black;
-  font-size: 25px;
-  transition-property: color;
-  transition-duration: 0.7s;
-}
-.social-item:hover svg {
-  color: #722b2f;
-}
 .history {
   background-color: white;
-  grid-template: 1fr / 1fr 1fr;
-  display: grid;
-
-  justify-content: center;
-  margin: 50px 50px 0 50px;
+  justify-content: space-between;
+  display: flex;
+  padding: 50px;
+}
+.history-img {
+  padding-top: 50px;
 }
 .history-text {
   font-family: "Open Sans", sans-serif;
@@ -205,10 +203,7 @@
   font-weight: 600;
   text-transform: uppercase;
 }
-.history-img {
-  object-fit: cover;
-  justify-self: end;
-}
+
 .blog-grid {
   margin: 0 auto;
   overflow: hidden;
