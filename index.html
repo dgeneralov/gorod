@@ -10,9 +10,11 @@
       integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
       crossorigin="anonymous"
     />
+    
     <link rel="stylesheet" type="text/css" href="css/mobile-menu.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/adapt.css" />
+    <link rel="stylesheet" type="text/css" href="css.fullPage.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Raleway:400,700,800|Russo+One&display=swap&subset=cyrillic,cyrillic-ext"
       rel="stylesheet"
@@ -22,7 +24,14 @@
   </head>
 
   <body>
-    <div id="anchor6"></div>  
+    <script>jQuery(document).ready(function($) {
+      $("#fullpage").fullpage({
+     sectionsColor:['transparent']
+    });
+    })
+    </script>
+
+    
   <div  class="fix anchor">
     <div class="line-top"></div>
     <div class="menu-top">
@@ -50,14 +59,14 @@
         </ul>
     </div>
       <ul class="nav">
-        <li><a href="#anchor6" class="block-menu__item">Главная</a></li>
-        <li><a href="#anchor1" class="block-menu__item">О группе</a></li>
-        <li><a href="#anchor2" class="block-menu__item">дискография</a></li>
-        <li><a href="#anchor3" class="block-menu__item">Фото</a></li>
-        <li><a href="#anchor4" class="block-menu__item">Видео</a></li>
-        <li><a href="#anchor5" class=block-menu__item>Контакты</a></li>
+        <li><a href="#section0" class="block-menu__item">Главная</a></li>
+        <li><a href="#section1" class="block-menu__item">О группе</a></li>
+        <li><a href="#section2" class="block-menu__item">дискография</a></li>
+        <li><a href="#section3" class="block-menu__item">Фото</a></li>
+        <li><a href="#section4" class="block-menu__item">Видео</a></li>
+        <li><a href="#section5" class=block-menu__item>Контакты</a></li>
         <div class="accent"> <li><a href="/kino2020.html" class="accent">кино 202</a></li>
-        <li class="adpt-1"><a  href="#" ><div class="accent-img "></div></a></div></li>
+        <li class="adpt-1"><a  href="#section6" ><div class="accent-img "></div></a></div></li>
       </ul>
     </div>
     <div class="line-bottom"></div>
@@ -69,57 +78,73 @@
     <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
     <div class="mobile-menu__container">
     <ul class="mobile-menu__list">
-        <li class="mobile-menu__item"><a href="#anchor6" class="mobile-menu__link">Главная</a></li>
-        <li class="mobile-menu__item"><a href="anchor1" class="mobile-menu__link">О группе</a></li>
-        <li class="mobile-menu__item"><a href="#anchor2" class="mobile-menu__link">дискография</a></li>
-        <li class="mobile-menu__item"><a href="#anchor3" class="mobile-menu__link">Фото</a></li>
-        <li class="mobile-menu__item"><a href="#anchor4" class="mobile-menu__link">Видео</a></li>
-        <li class="mobile-menu__item"><a href="#anchor5" class="mobile-menu__link">кино 2020</a></li>
+        <li class="mobile-menu__item block-menu__item"><a href="#section0" class="mobile-menu__link">Главная</a></li>
+        <li class="mobile-menu__item block-menu__item"><a href="#section1" class="mobile-menu__link">О группе</a></li>
+        <li class="mobile-menu__item block-menu__item"><a href="#section2" class="mobile-menu__link">дискография</a></li>
+        <li class="mobile-menu__item block-menu__item"><a href="#section3" class="mobile-menu__link">Фото</a></li>
+        <li class="mobile-menu__item block-menu__item"><a href="#section4" class="mobile-menu__link">Видео</a></li>
+        <li class="mobile-menu__item accent"><a href="section5" class="mobile-menu__link">Кино 2020</a></li>
     </ul>
     </div>
   </nav>
+  
+   
 
+<main>
+
+  <div id="fullpage">
+  <div class="section" id="section0">
+  <div class="intro">
     <div class="header">
-     <div class="position">
-        <div class="author-img"></div></a>
-      </div>
-    </div>
-  <div class="block-author">
-    
-    <div class="author-text">
-      <p>Официальный сайт</p>
-      <h3>Группа "ГороД"</h3>
-    </div>
-    </div>
-
-     <div   class="canchor" id="anchor1">
-      <div class="history-text">
-        <h2>иcтория группы</h2>
-        <h3>Группа «ГороД» была создана в 1992 году в Москве.</h3>
-        <p>
-          Изначально в группе было два участника: Алексей Титов (вокал,
-          ритм-гитара) и Дмитрий Кнышев (ударные). Немного позже к ним
-          присоединился третий участник - Астемир Парфенов (соло-гитара). Группа
-          играет в стиле софт-рок. В качестве музыкальных ориентиров оказавших
-          основное влияние на звучание группы можно выделить такие команды, как
-          Кино и Сектор Газа. В текстах группы прослеживается в основном
-          любовная лирика и философские темы - размышления человека о нахождении
-          его в обществе и восприятия им окружающего мира.
-        </p>
-        <p>
-          В разное время группой были записаны несколько нестудийных альбомов. В
-          раннем периоде творчества были редкие электрические концерты, одно
-          время группа играла в кафе, как известные песни, так и из своего
-          творчества. В последнее время группа акцентируется больше на
-          акустической программе.
-        </p>
-      </div>
-      <div class="history-img">
-        <img src="img/rgoup.jpeg" />
+    <div class="position">
+       <div class="author-img"></div></a>
      </div>
+   </div>
+  <div class="block-author">
+   
+   <div class="author-text">
+     <p>Официальный сайт</p>
+     <h3>Группа "ГороД"</h3>
+   </div>
+   </div>
+  </div>
+  </div>
+  
+  <div class="section" id="section1">
+      <div class="slide" id="slide1">
+  <div class="intro">
+    <div class="history-text">
+      <h2>иcтория группы</h2>
+      <h3>Группа «ГороД» была создана в 1992 году в Москве.</h3>
+      <p>
+        Изначально в группе было два участника: Алексей Титов (вокал,
+        ритм-гитара) и Дмитрий Кнышев (ударные). Немного позже к ним
+        присоединился третий участник - Астемир Парфенов (соло-гитара). Группа
+        играет в стиле софт-рок. В качестве музыкальных ориентиров оказавших
+        основное влияние на звучание группы можно выделить такие команды, как
+        Кино и Сектор Газа. В текстах группы прослеживается в основном
+        любовная лирика и философские темы - размышления человека о нахождении
+        его в обществе и восприятия им окружающего мира.
+      </p>
+      <p>
+        В разное время группой были записаны несколько нестудийных альбомов. В
+        раннем периоде творчества были редкие электрические концерты, одно
+        время группа играла в кафе, как известные песни, так и из своего
+        творчества. В последнее время группа акцентируется больше на
+        акустической программе.
+      </p>
     </div>
-
-    <div class="anchor canchor" id="anchor3">
+    <div class="history-img">
+      <img src="img/rgoup.jpeg" />
+   </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="section" id="section2">
+    <div class="slide" id="slide2">
+<div class="intro">
+  <div class="photo">
     <h3  class="head-3"><a href=""></a>Фото</h3>
     <div class="blog-grid">
       <img src="img/img2.jpeg" class="grid-item" />
@@ -129,93 +154,43 @@
       <img src="img/img7.jpeg" class="grid-item" />
       <img src="img/img8.jpeg" class="grid-item" />
     </div>
-  </div>
+   </div>
+</div>
+</div>
 
-  <div class="anchor canchor" id="anchor4">
-    <div class="video-text">
-      <h3><a  href=""></a>Видео</h3>
-      <p>Песни группы ГороД и по черновикам Виктора Цоя</p>
-      <p>
-        <a href=""
-          >Остальные Видеоролики смотрите на ютуб канале группы ГороД</a
-        >
-      </p>
-    </div>
-    <div  class="block-video video">
-      <iframe
-        class="video-item"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/EAhwhWdQBqY"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <iframe
-        class="video-item"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/hn7ScotPJxM"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <iframe
-        class="video-item"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Dzd6vWu6wTc"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <iframe
-        class="video-item"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/mghFkxQAUDU"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <iframe
-        class="video-item"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/WtAD9TwU5nA"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <iframe
-        class="video-item"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/vUmH0rSLjBQ"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <iframe
-        class="video-item"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/dMqDAt49DiE"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <iframe
-        class="video-item"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/n17wHjOGpJw"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
+<div class="section" id="section2">
+      <div class="slide" id="slide2">
+        <img src="img/img3.jpeg" class="grid-item" />
   </div>
+  <div class="slide" id="slide2">
+  <h1>Слайд 3</h1>
+  <p>
+  Для перехода к следующему слайду, нажмите по одной из кнопок панели навигации
+  </p>
+  </div>
+  <div class="slide" id="slide2">
+  <h1>Слайд 4</h1>
+  <p>
+  Для перехода к следующему слайду, нажмите по одной из кнопок панели навигации
+  </p>
+  </div>
+  
+  </div>
+  <div class="section" id="section2">
+  <div class="intro">
+  
+  <img src="img/used-by-fullpage.PNG" />
+  <h1>Третья страница</h1>
+  <p>Hello</p>
+  
+  
+  </div>
+  </div>
+ </div>
+
+</main>
+
+
     <footer>
       <div class="footer">
         <div class="btn-up">
@@ -225,6 +200,17 @@
       </div>
     </footer>
     <script src="js/all.min.js"></script>
-    <script src="js/scroll.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-migrate-3.1.0.js"
+    integrity="sha256-oA/lsZCgEPkbv/byAkeXSTEZTsGOPZCrtbyFBHmcGKM="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    
   </body>
 </html>

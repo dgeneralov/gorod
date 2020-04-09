@@ -294,7 +294,7 @@
  
   padding: 0;
   background: linear-gradient(45deg, #935522, #371923);
-  place-items: center;
+ place-items: center;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -313,10 +313,18 @@
   text-align: end;
 }
 
-.canchor {
+/*.canchor {
   margin: 100px 0 0 0;
   display: none;
-}
+}*/
 .mobile-menu {
   visibility: hidden;
 }
+
+#section2 img {
+  left:130%;
+  position:relative;
+ }
+ #section2 p, #section2 h1{
+  display:none;
+ }
