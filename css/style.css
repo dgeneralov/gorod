@@ -311,7 +311,11 @@
 
 .canchor {
   margin: 100px 0 0 0;
+  display: none;
 }
 .mobile-menu {
   visibility: hidden;
+}
+#anchor1{
+  display: none;
 }
