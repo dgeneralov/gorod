@@ -79,7 +79,7 @@
   margin:0;
   padding: 0;
 }
-.photo-grid{
+.photo{
   grid-template: 1fr/1fr;
 }
 .block-video{
