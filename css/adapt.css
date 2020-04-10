@@ -1,7 +1,6 @@
 @media (max-width: 1700px) {
   .fix {
     right: 0px;
-
     left: 0px;
   }
   .nav {
@@ -79,5 +78,11 @@
   width: 100%;
   margin:0;
   padding: 0;
+}
+.photo-grid{
+  grid-template: 1fr/1fr;
+}
+.block-video{
+  grid-template: 1fr/1fr;
 }
 }

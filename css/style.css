@@ -269,17 +269,11 @@
 }
 .video-item {
   align-items: center;
-  background-color: wheat;
   padding-bottom: 40px;
-  background-color: white;
   padding-left: 70px;
   margin: 0 ;
-  
   overflow: hidden;
- 
-  align-items: center;
   object-fit: cover;
-  margin: 1px;
 }
 .footer {
   height: 40px;

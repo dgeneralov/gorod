@@ -14,9 +14,9 @@ jQuery(document).ready(function($) {
    loopBottom:true,
    loopHorizontal:false,
    
-   afterResize:function(link,index) {
-   alert('Hello');
-   },
+   //afterResize:function(link,index) {
+   //alert('Hello');
+   //},
    afterLoad:function(link,index) {
    
    if(index == 3) {
