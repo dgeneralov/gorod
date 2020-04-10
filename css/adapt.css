@@ -46,15 +46,14 @@
  
  }
  .header{
-   background-position: center top;
-   height: 900px;
-   margin-top:0;
+   background-position: center center;
+   height: 500px ;
+   width: 100%;
+  
  }
  .position{
-   width: 60px;
-   height: 60px;
-   padding:1px;
-   bottom: -40px;
+  display: grid;
+  grid-template: 1fr/1fr;
  }
  .author-img{
   width: 100%;

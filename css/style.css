@@ -1,33 +1,20 @@
-.fix {
-  z-index: 2;
-  top: 5px;
-  width: 100%;
-  margin: 0 auto;
-  position: fixed;
-  background-color: black;
+main{
+  background-color: linear-gradient(278deg, rgba(11,11,11,1) 0%, rgba(255,255,255,1) 50%, rgba(145,145,145,1) 100%);
 }
-.line-top {
-  margin-top: 0px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: black;
-  height: 1px;
-  width: 1200px;
+.social{
+  margin-right: 90px;
 }
 .social ul {
-  padding: 0;
+
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
 .social-item {
-  padding-left: 5px;
+  padding-left: 14px;
   box-shadow: transparent;
 }
-.social {
-  display: inline;
-  margin: 0 5px 0 110px;
-}
+
 .social-item svg {
   color: white;
   font-size: 25px;
@@ -37,28 +24,20 @@
 .social-item:hover svg {
   color: #722b2f;
 }
-.menu-top {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 60px;
-  margin: 0 auto;
-}
 .nav {
-  background: transparent;
-  height: 60px;
-  padding: 0;
+  z-index: 2;
+  top: 10px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  background: black;
+  height: 30px;
+  width: 100%;
   display: flex;
   list-style-type: none;
-  margin: 0 auto 0 100px;
   align-items: center;
 }
-.block-menu {
-  padding: 10px;
-  list-style-type: none;
-  display: flex;
-  margin: 0 auto;
-}
+
 .block-menu__item {
   text-transform: uppercase;
   padding-top: 14px;
@@ -70,7 +49,6 @@
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 800;
-
   border: 1px solid transparent;
   background-color: transparent;
   transition-property: background-color;
@@ -123,8 +101,8 @@
   width: 1200px;
 }
 .header {
-  margin-top: 67px;
-  height: 877px;
+  
+  height: 944px;
   background-image: url(../img/head-2.png);
   background-repeat: no-repeat;
   background-position: top center;
