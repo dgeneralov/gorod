@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
     $("#fullpage").fullpage({
-   sectionsColor:['tranporent'],
+   sectionsColor:['transporent'],
    anchors:['home','history','diskography','photo','video','contacts'],
    menu:'#menu',
    scrollBar:false,
