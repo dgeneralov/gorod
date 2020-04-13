@@ -199,13 +199,16 @@ main{
   height: 800px;
 }
 .block-video {
-  justify-items: center;
+  display: grid;
+  grid-gap: 15px 15px;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  justify-content: space-between;
   height: 700px;
   width: 700px;
 }
 .video-item {
+  margin:0 120px;
   padding-top:55px;
-  justify-items: center;
   object-fit: cover;
   height: 700px;
   width: 700px;
