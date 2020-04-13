@@ -14,11 +14,11 @@ jQuery(document).ready(function ($) {
       "Видео",
       "Контаткы",
     ],
-    slidesNavigation: true,
+    slidesNavigation: false,
     navigationPosition: "left",
     slidesNavPosition: "top",
     loopTop: true,
-    loopBottom: true,
+    loopBottom: false,
     loopHorizontal: false,
 
     //afterResize:function(link,index) {
