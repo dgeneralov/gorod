@@ -168,7 +168,7 @@ main{
   justify-content: center;
 }
 .history-img {
-  background-image: url(/img/rgoup.jpeg);
+  background-image: url(../img/rgoup.jpeg);
   background-size: cover;
   width: 600px;
   height: 500px;
