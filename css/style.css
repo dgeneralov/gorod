@@ -1,11 +1,8 @@
-main{
-  background-color: linear-gradient(278deg, rgba(11,11,11,1) 0%, rgba(255,255,255,1) 50%, rgba(145,145,145,1) 100%);
-}
-.social{
+.social {
   margin-right: 125px;
 }
 .social ul {
-
+  margin-left: 70px;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -101,8 +98,8 @@ main{
   width: 1200px;
 }
 .header {
-  
-  height: 944px;
+  margin: 0 100px;
+  height: 937px;
   background-image: url(../img/head-2.png);
   background-repeat: no-repeat;
   background-position: top center;
@@ -120,13 +117,13 @@ main{
 .block-author {
   text-align: center;
   font-family: "Russo One", sans-serif;
-  bottom:70px;
+  bottom: 70px;
   left: 700px;
   position: absolute;
 }
 .author-img {
   bottom: 400px;
-  left: 900px;
+  left: 800px;
   position: absolute;
   background-image: url(../img/author.jpeg);
   background-repeat: no-repeat;
@@ -159,12 +156,35 @@ main{
   font-weight: 300;
   text-transform: capitalize;
 }
+.btn {
+  position: absolute;
+  bottom: 170px;
+  left: 590px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: "Russo One", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.btn-item {
+  background-color: #c5cc41;
+  color: white;
+  text-align: center;
+  margin-right: 140px;
+  width: 190px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid white;
+}
 .history {
+  margin: 0 100px;
+  background-color: white;
   justify-items: center;
   display: grid;
   grid-row: 15px 15px;
   grid-template: 1fr / 1fr 1fr;
-  padding-top:80px;
+  padding-top: 80px;
   justify-content: center;
 }
 .history-img {
@@ -191,9 +211,9 @@ main{
   text-transform: uppercase;
 }
 
-.photo-item{
+.photo-item {
   justify-self: center;
-  margin:0 200px;
+  margin: 0 200px;
   object-fit: cover;
   width: 800px;
   height: 800px;
@@ -207,8 +227,8 @@ main{
   width: 700px;
 }
 .video-item {
-  margin:0 120px;
-  padding-top:55px;
+  margin: 0 120px;
+  padding-top: 55px;
   object-fit: cover;
   height: 700px;
   width: 700px;
@@ -223,7 +243,7 @@ main{
   width: 100%;
   margin: 0;
 }
- .footer:hover{
+.footer:hover {
   visibility: visible;
   background-color: linear-gradient(45deg, #935522, #371923);
 }
@@ -238,7 +258,6 @@ main{
 .footer small {
   color: rgba(73, 71, 71, 0.637);
   text-align: end;
-  
 }
 .mobile-menu {
   visibility: hidden;
@@ -251,13 +270,3 @@ main{
 #section2 h1 {
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
