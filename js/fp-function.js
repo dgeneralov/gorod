@@ -1,13 +1,6 @@
 jQuery(document).ready(function ($) {
   $("#fullpage").fullpage({
-    sectionsColor: [
-      "#34132B",
-      "#34132B",
-      "#34132B",
-      "#34132B",
-      "#34132B",
-      "#34132B",
-    ],
+    sectionsColor: [""],
     anchors: ["home", "history", "diskography", "photo", "video", "contacts"],
     menu: "#menu",
     scrollBar: false,

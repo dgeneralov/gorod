@@ -90,13 +90,6 @@
 .accent:hover {
   color: white;
 }
-.line-bottom {
-  margin-right: auto;
-  margin-left: auto;
-  background-color: black;
-  height: 1px;
-  width: 1200px;
-}
 .header {
   margin: 0 100px;
   height: 937px;
@@ -134,23 +127,24 @@
   border: 1px solid white;
 }
 .author-text {
-  background-image: url(../img/chernovik.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  color: white;
+  position: absolute;
+  bottom: 170px;
+  left: 630px;
+  font-family: "Russo One", sans-serif;
   padding: 5px;
-  align-items: center;
-  border: 1px solid black;
+  text-align: center;
   height: 250px;
   width: 500px;
 }
 .author-text h3 {
-  line-height: 1;
-  font-size: 60px;
+  line-height: 2;
+  font-size: 30px;
   font-weight: 800;
   text-transform: capitalize;
 }
-.author-text p {
+.author-text h3 > span {
+  display: block;
   line-height: 0;
   font-size: 25px;
   font-weight: 300;
@@ -212,7 +206,28 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.diskography{
+  display: grid;
+  grid-template: 1fr 1fr  / 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 20px ;
+  justify-items: center;
+}
+.diskography-item{
+  align-items: center;
 
+  height: 270px;
+  width: 150px;
+  border: 1px solid black;
+  padding:10px;
+}
+.diskography-item h4{
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+.diskography-item ul{
+  text-decoration-style: none;
+}
 .photo-item {
   justify-self: center;
   margin: 0 200px;
@@ -271,4 +286,10 @@
 #section2 p,
 #section2 h1 {
   display: none;
+}
+
+
+.section{
+  background-attachment: fixed;
+  background: -moz-linear-gradient(left, rgba(71,71,71,1) 10%, rgba(71,71,71,1) 13%, rgba(41,41,41,1) 22%, rgba(82,82,82,1) 25%, rgba(94,94,94,1) 32%, rgba(66,66,66,1) 39%, rgba(0,0,0,1) 51%, rgba(41,41,41,1) 55%, rgba(15,15,15,1) 60%, rgba(26,26,26,1) 65%, rgba(15,15,15,1) 71%, rgba(15,15,15,1) 73%);
 }

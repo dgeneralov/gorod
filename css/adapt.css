@@ -31,7 +31,7 @@
   }
 }
 @media (max-width: 1200px) {
-  .fix {
+  .nav {
     display: none;
   }
   .mobile-menu {
