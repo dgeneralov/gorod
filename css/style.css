@@ -178,7 +178,9 @@
   border: 1px solid white;
 }
 .history {
-  margin: 0 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   background-color: white;
   justify-items: center;
   display: grid;

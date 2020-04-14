@@ -1,3 +1,8 @@
+.kino2020 {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
 #video-bg {
   position: fixed;
   top: 0;
@@ -11,6 +16,7 @@
 }
 
 #video-bg > video {
+  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;

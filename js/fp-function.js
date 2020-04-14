@@ -1,6 +1,13 @@
 jQuery(document).ready(function ($) {
   $("#fullpage").fullpage({
-    sectionsColor: ["#34132B", "#34132B"],
+    sectionsColor: [
+      "#34132B",
+      "#34132B",
+      "#34132B",
+      "#34132B",
+      "#34132B",
+      "#34132B",
+    ],
     anchors: ["home", "history", "diskography", "photo", "video", "contacts"],
     menu: "#menu",
     scrollBar: false,
@@ -13,6 +20,7 @@ jQuery(document).ready(function ($) {
       "Фото",
       "Видео",
       "Контаткы",
+      "Кино 2020",
     ],
     slidesNavigation: false,
     navigationPosition: "left",
