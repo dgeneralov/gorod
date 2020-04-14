@@ -90,13 +90,6 @@
 .accent:hover {
   color: white;
 }
-.line-bottom {
-  margin-right: auto;
-  margin-left: auto;
-  background-color: black;
-  height: 1px;
-  width: 1200px;
-}
 .header {
   margin: 0 100px;
   height: 937px;
@@ -209,6 +202,23 @@
   font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
+}
+.diskography{
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-row:20px;
+  justify-items: center;
+}
+.diskography-item{
+  height: 100px;
+  width: 50px;
+  border: 1px solid black;
+  padding:10px;
+}
+.diskography-item h4{
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .photo-item {
