@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
    scrollBar:false,
    scrollOverflow:true,
    navigation:true,
-   navigationTooltips:['Секция 1','Секция 2','Секция 3'],
+   navigationTooltips:['Главная','О группе','Дискография','Фото','Видео','Контакты'],
    slidesNavigation:true,
    navigationPosition:'left',
    slidesNavPosition:'top',

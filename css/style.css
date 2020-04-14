@@ -190,7 +190,14 @@ main{
   font-weight: 600;
   text-transform: uppercase;
 }
-
+.photo{
+  display: grid;
+  grid-gap: 15px 15px;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  justify-content: space-between;
+  height: 700px;
+  width: 700px;
+}
 .photo-item{
   justify-self: center;
   margin:0 200px;
